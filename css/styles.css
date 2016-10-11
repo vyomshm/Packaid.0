@@ -12,7 +12,7 @@
 }
 @font-face{
 	font-family: uranium;
-	src:url('../fonts/URANIUM___.ttf');
+	src:url('../fonts/uranium.ttf');
 }
 body{
 	font-size:18px;
@@ -29,6 +29,32 @@ a:hover{
 
 /**home-page/**
 /** Home-top**/
+
+.logo{
+	position: fixed;
+	top:10vh;
+	left: 44vw;
+	width: 12vw;
+	height: 18vh;
+}
+
+.packaid{
+	position: fixed;
+	top: 29vh;
+	left: 35vw;
+	color: #007849;
+	font-weight: bold;
+	font-family: 'roboto slab',serif;
+	font-size: 3.5vw;
+	width: 30vw;
+	height: 15vw;
+	text-shadow:0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+	            0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1),
+	            0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2),
+	             0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 
+	             0 20px 20px rgba(0,0,0,.15);
+	  
+}
 #first-view{
 	padding-left: 0;
 	padding-right: 0;
@@ -87,9 +113,9 @@ position: relative;
 }
 
 .scroll:hover span{
-	 -moz-transform: scale(1.4);
-  -webkit-transform: scale(1.4);
-  transform: scale(1.4);
+	 -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 
 }
 	.jumbotron{
@@ -200,7 +226,7 @@ position: relative;
 }
 
 .dropdown-menu{
-	margin-left: 25vw;
+	margin-left: 28vw;
 	width: 50vw;
 }
 
