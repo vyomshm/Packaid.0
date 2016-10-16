@@ -1,6 +1,7 @@
 
 *{
 	box-sizing: border-box;
+
 }
 @font-face{
 	font-family: simplifica;
@@ -19,6 +20,8 @@ body{
 	background-color:#f5f5f5;
 	font-family: 'Montserrat',sans-serif;
 	color: #000000;
+	background-image: url("../images/bkg-7.jpg");
+		background-position: center;
 }
 a{
 	text-decoration: none;
@@ -28,6 +31,7 @@ a:hover{
 }
 
 /**home-page/**
+
 /** Home-top**/
 
 #first-view{
@@ -64,7 +68,7 @@ position: relative;
 	position: absolute;
 	top: 34vh;
 	left: 35vw;
-	color: #007849;
+	color: #000080; /*007849-green*/
 	font-weight: bold;
 	font-family: 'roboto slab',serif;
 	font-size: 3vw;
@@ -85,6 +89,10 @@ position: relative;
 	left: 30px;
 	margin-left: 5vw;
 	margin-right: 5vw;
+}
+
+.btn-group{
+	font-size: 1.2em;
 }
 
 .btn-group>button{
@@ -110,7 +118,7 @@ position: relative;
 	width:10vw;
 	left: 50vw;
 	margin-left: -5vw;
-	color:#007849;
+	color:#000080;
 	font-size: 20px;
 	font-weight: bold;
 }
@@ -130,51 +138,178 @@ position: relative;
 	}
 
 
-#main-content{
-	height: 4000px;
+	#main-content .company{
+		font-size: 1.15em;
+	}
+
+
+/***************NAVBAR STARTS************/
+
+.navbar-header .navbar-brand{
+	font-size: 1.8em;
 }
+
+.container-fluid{
+	border-radius: 0;
+}
+
+
+
+
+/***************NAVBAR STARTS************/
+
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+  color: #F0FFFF;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
+
 /**home page ends**/
 
-/* navbar */
-
-#logo{
-	background:url('../images/logo.svg');
-	width: 80px;
-	height: 80px;
-	-webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-	background-size: cover;
-    margin: 10px 15px 10px 0;
+/**map our clintele**/
+.map-tile{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-tile iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
-.navbar-brand {
-  padding-top: 25px;
-}
-.navbar-brand h1 { /* Packaid tech */
-  
-  text-transform: uppercase;
-  margin-top: 0;
-  color: #000000;
-  margin-bottom: 0;
-  line-height: .75;
-  font-family: nova;
+/**contact-us page starts**/
+
+
+/**semi-auto range starts // media css included**/
+
+.section-head{
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
-#header-nav{
-	background-color:#fedc3d ;
+#boxme{
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
-.navbar-default .navbar-nav>li>a{
-
-	color:#000000;
+#page-head{
+	color: #ffffff;
+	background-color: #fd5d00;
+	font-size: 2em;
+	padding: 10px;
+	border-radius: 2px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.section-content{
+	text-transform: capitalize;
 }
 
-.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+.media-list{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.media-left img{
+	width: 40vw;
+	border-radius: 5px;
+	border: solid 3px #fe00f6;
+	padding: 5px;
+}
+.media-heading{
+	color: #0073e5 ;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.media-body{
 	color: #000000;
 }
+.media-body ul{
+
+	margin-right: 10px;
+	margin-top: 20px;
+}
 
 
+/**semi-auto range ends**/
+
+/**enquiry-form**/
+
+#MySelector{
+
+	margin-top: 40px;
+}
+#form {
+	list-style: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+#form li{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+
+/**enquiry-form ends**/
 
 /* large devices*/
 
@@ -203,71 +338,58 @@ position: relative;
 /*mobile-devices//extra small*/
 @media(max-width: 767px){
 
-.logo{
-	top:5vh;
-	width:30vw;
-	height: 10vh;
-}
+           /******home page-first-view ends ******/
 
-.packaid{
-	top:15vh;
+		#menu-bar .container .row{
 
-}
+			top: 30vh;
+		}
+		.logo{
+			top:5vh;
+			width:30vw;
+			height: 10vh;
+		}
 
-.btn-group>.btn{
-	float: none;
-}
+		.packaid{
+			top:15vh;
+		}
 
-.glyphicon-menu-down{
+		.btn-group>.btn{
+			float: none;
+		}
 
-     top: 50vh;
-}
+		.glyphicon-menu-down{
 
-.btn-group>button{
-	width: 50vw;
-}
+		     top: 70vh;
+		}
 
-.dropdown-menu{
-	margin-left: 28vw;
-	width: 50vw;
-}
+		.btn-group>button{
+			width: 70vw;
+		}
 
-.btn-group>.btn:first-child{
-	margin-left: 0;
-}
+		.dropdown-menu{
+			margin-left: 7vw;
+			width: 70vw;
+		}
 
+		.btn-group>.btn:first-child{
+			margin-left: 0;
+		}            /******home page-first-view ends ******/
 
+		/* Footer */
+		  .panel-footer section {
+		    margin-bottom: 30px;
+		    text-align: center;
+		  }
+		  .panel-footer section:nth-child(3) {
+		    margin-bottom: 0; /* margin already exists on the whole row */
+		  }
+		  .panel-footer section hr {
+		    width: 50%;
+		  }
+		  /* End Footer */
 
-}
-
-
-
-/* navbar ends*/
-/* our clientele page */
-
-.clientele h1{
-
-	width:45vw;
-	margin-top: 25px;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-#clientlist{
-
-
-	margin-top: 50px;
-	width:100vw;
 
 }
 
-.clientele p{
 
-	width:50vw;
-	margin-top: 50px;
-	margin-right: auto;
-	margin-left: auto;
-	font-size: 20px;
-	text-align: center;
-
-}

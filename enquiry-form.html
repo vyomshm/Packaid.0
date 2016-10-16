@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo-icon.ico">
+    <link rel="author" href="Vyom Sharma">
+    <title>Enquiry Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+  <header>
+        <nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+          <a href="index.html" class="pull-left">
+          <div id="logo" class="visible-lg visible-sm visible-md"></div>
+          </a>
+
+          <div class="navbar-brand">
+          <a href="index.html"><h1>Pack-Aid Techniques Inc.</h1>
+          </a>
+          </div>
+
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          
+          <ul class="nav navbar-nav navbar-right">
+            
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li><li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+      </nav>
+
+   </header>
+    
+    <div class="container">
+      <div class="row">
+       <div class="text-center" id="boxme"><span id="page-head" class="text-center">Enquiry Form</span></div>
+        <form id="MySelector" class="col-xs-12">
+
+        <ul id="form">
+
+        <li> <label for="Name"> Name</label>
+        <input type="text" name="Name" id="Name" placeholder="yourname"> </li>
+
+        <li><label for="Company">Company Name</label>
+        <input type="text" name="Company" id="Company" placeholder="Xyz inc."></li>
+
+        <li><label for="mobile_no.">Mobile</label> 
+        <input type="text" name="Mobile" id="mobile_no" placeholder="+91 xxxxxxxxxx"></li>
+
+        <li><label for="address">Address</label> 
+        <input type="text" name="Address" id="Address" placeholder=""></li>
+
+        <li><label for="state">State</label> 
+        <input type="text" name="State" id="State" placeholder=""></li>
+
+        <li><label for="email">E-mail</label>
+        <input type="text" name="Email" id="email" placeholder="yourname@company.com"></li>
+
+        <li><label for="Message">Enquiry Message</label>
+        <input type="text" name="message" id="Message"></li>        
+        
+        <li><input type="submit"> </li>
+
+        </ul>
+        </form>
+      </div>
+    </div>
+
+
+   <!-- fireform-->
+    <script  src="http://src.fireform.org/fireform.min.js"></script>
+      <script >
+        options={
+          emailNotification:"vyom.incite@gmail.com",
+        }
+        new Fireform('#MySelector', 'http://fireform.org/list/2229395b-057e-4c63-8197-db69bfe0d7f4/Enquiry-form', options);
+      </script>
+
+      <!--fireform ends-->
+
+   
+   <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Pack-Aid Technologies Inc.:</span><br>
+          Packaging Revolution<br>
+          
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          #190,Block-1,Subhash Nagar<br>
+          New Delhi-110027
+          <p>* Projects can only be accessed after login.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+         Follow us on:<br>
+           <script src="https://apis.google.com/js/platform.js"></script>
+          <div class="g-ytsubscribe" data-channelid="UCrT-lYfvxR0Lku3a7h8D8vQ" data-layout="default" data-count="hidden"></div> 
+          <p>"Love this site.Got to work with Lenskart."</p>
+          <p>"Mentors assigned with every project are truly great,working on my 3rd project!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright Pack-Aid Tech. Inc. 2016</div>
+    </div>
+  </footer>
+<!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
