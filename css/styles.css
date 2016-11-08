@@ -22,6 +22,7 @@ body{
 	color: #000000;
 	background-image: url("../images/bkg-7.jpg");
 		background-position: center;
+
 }
 a{
 	text-decoration: none;
@@ -82,13 +83,25 @@ position: relative;
 	  
 }
 
+.list_head{
+	font-family: 'Oswald';
+	margin-right: 5px;
+}
+
+.adchem{
+	margin-top: 5px;
+}
 #menu-bar .container .row{
 	
 	position:absolute;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bolder;
 	top:65vh;
 	left: 30px;
 	margin-left: 5vw;
 	margin-right: 5vw;
+	font-size: 1.2em;
+	color: #00ff00;
 }
 
 .btn-group{
@@ -118,7 +131,7 @@ position: relative;
 	width:10vw;
 	left: 50vw;
 	margin-left: -5vw;
-	color:#000080;
+	color:#ff0000;
 	font-size: 20px;
 	font-weight: bold;
 }
@@ -135,6 +148,7 @@ position: relative;
   -moz-background-size: cover;
   -o-background-size: cover;
 		background-size: cover;
+		opacity: 1;
 	}
 
 
@@ -152,7 +166,14 @@ position: relative;
 .container-fluid{
 	border-radius: 0;
 }
+.navbar .dropdown .dropdown-toggle{
+	color: #00ff00;
 
+}
+.navbar-inverse{
+	background-color: #A8A3CD;
+	border-color: #A8A3CD;
+}
 
 
 
@@ -165,9 +186,9 @@ position: relative;
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: #222;
+  background-color: #A8A3CD;
   border-top: 0;
-  color: #F0FFFF;
+  color: #ff0000;
 }
 .panel-footer div.row {
   margin-bottom: 35px;
@@ -178,10 +199,11 @@ position: relative;
 #hours > span, #address > span {
   font-size: 1.3em;
 }
-#address p {
-  color: #557c3e;
-  font-size: .8em;
-  line-height: 1.8;
+.pat{
+	
+}
+.evolve{
+
 }
 #testimonials {
   font-style: italic;
@@ -190,10 +212,17 @@ position: relative;
   margin-top: 25px;
 }
 
-.fb,.in{
-	width:4vw;
-	height: 4vw;
-	border-radius: 2px;
+.fb,.in,.tweet,.youtube{
+	width:40px;
+	height: 40px;
+	border-radius: 40%;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+#followus span {
+	width: 40px;
+	height: 40px;
 }
 /* END FOOTER */
 
