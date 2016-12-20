@@ -160,20 +160,28 @@ position: relative;
 /***************NAVBAR STARTS************/
 
 .navbar-header .navbar-brand{
-	font-size: 1.8em;
+  font-size: 1.8em;
+  height: 2.6em;
+  margin-top: 20px;
 }
 
 .container-fluid{
-	border-radius: 0;
+  border-radius: 0;
 }
 .navbar .dropdown .dropdown-toggle{
-	color: #00ff00;
-
+  color: #000000;
+  margin-top: 20px;
+    font-size: 1.2em;
 }
 .navbar-inverse{
-	background-color: #A8A3CD;
-	border-color: #A8A3CD;
+  background-color: #b3ffff;
+  border-color: #A8A3CD;
 }
+
+.navbar-brand:nth-child(2){
+	color: #000000;
+}
+
 
 
 
@@ -212,7 +220,7 @@ position: relative;
   margin-top: 25px;
 }
 
-.fb,.in,.tweet,.youtube{
+.facebook,.linkedin,.twitter,.youtube{
 	width:40px;
 	height: 40px;
 	border-radius: 40%;
@@ -396,7 +404,7 @@ input[type=submit]:hover {
 
 		.glyphicon-menu-down{
 
-		     top: 70vh;
+		     top: 84vh;
 		}
 
 		.btn-group>button{
