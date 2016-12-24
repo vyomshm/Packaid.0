@@ -61,23 +61,20 @@ position: relative;
   color: #0000b3;
 }
 
-.logo{
-  position: absolute;
-  top:4vh;
-  left: 44vw; /*44*/ /*10vw*/
-  width: 12vw;
-  height: 18vh;
+.logo2{
+  width: 7vw;
+  height: 7vw;
+  padding: 12px;
 }
-
 .packaid{
   position: absolute;
-  top: 22vh;
-  left: 35vw;  /*2*/
+  top: 5vh;
+  left: 7vw;  /*2*/
   color: #000080; /*007849-green*/
   font-weight: bold;
   font-family: 'roboto slab',serif;
   font-size: 3vw;
-  width: 30vw;
+  width: 80vw;
   height: 15vw;
   text-shadow:0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
               0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1),
