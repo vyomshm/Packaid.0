@@ -64,7 +64,7 @@ position: relative;
 .logo{
   position: absolute;
   top:4vh;
-  left: 10vw; /*44*/
+  left: 44vw; /*44*/ /*10vw*/
   width: 12vw;
   height: 18vh;
 }
@@ -72,7 +72,7 @@ position: relative;
 .packaid{
   position: absolute;
   top: 22vh;
-  left: 2vw;  /*35*/
+  left: 35vw;  /*2*/
   color: #000080; /*007849-green*/
   font-weight: bold;
   font-family: 'roboto slab',serif;
@@ -153,12 +153,12 @@ position: relative;
 
 }
   .jumbotron{
-    background:url('../images/12.jpg')no-repeat center;
+    background:url('../images/7.jpg')no-repeat center;
     /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
     background-size: cover;*/
-    background-size: 65% 80%;
+    background-size: 50% 65%;
   }
 
 
