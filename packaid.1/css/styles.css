@@ -73,15 +73,15 @@ position: relative;
   color: #000080; /*007849-green*/
   font-weight: bold;
   font-family: 'roboto slab',serif;
-  font-size: 3vw;
+  font-size: 4vw;
   width: 80vw;
   height: 15vw;
   text-shadow:0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
               0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1),
               0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 
+               0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
-    
+
 }
 
 .list_head{
@@ -93,7 +93,7 @@ position: relative;
   margin-top: 5px;
 }
 #menu-bar .container .row{
-  
+
   position:absolute;
   font-family: 'Oswald', sans-serif;
   font-weight: bolder;
@@ -131,16 +131,21 @@ position: relative;
   position:absolute;
   top: 83vh;
   /*width:10vw;*/
-  left: 45vw;
-  margin-left: -5vw;
+  margin-left: 37vw;
   color:#ff0000;
   font-size: 28px;
   font-weight: bold;
+  width: 26vw;;
+  margin-right: 37vw;
 
 }
 .menu-down{
   font-family: 'Lobster',cursive;
   color: #ff0000;
+  top: 85vh;
+
+  text-align: center;
+
 }
 
 .scroll:hover span{
@@ -397,7 +402,7 @@ input[type=submit]:hover {
 
 @media(min-width:992px)and(max-width:1999px){
 
-  
+
 
 }
 
@@ -405,7 +410,7 @@ input[type=submit]:hover {
 
 @media(min-width: 768px)and(max-width: 991px){
 
-  
+
 
 }
 
